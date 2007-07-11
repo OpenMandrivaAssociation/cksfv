@@ -1,5 +1,5 @@
 %define name	cksfv
-%define version 1.3.10
+%define version 1.3.11
 %define release %mkrel 1
 
 Name:		%{name}
@@ -45,6 +45,7 @@ rm -rf %buildroot
 %files
 %defattr(-, root, root)
 %doc ChangeLog README TODO INSTALL
+%doc scripts/
 %{_bindir}/cksfv
 %_mandir/man1/*
 %config(noreplace) %{_sysconfdir}/bash_completion.d/%{name}
