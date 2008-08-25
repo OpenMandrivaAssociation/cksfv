@@ -1,8 +1,8 @@
 Name:		cksfv
-Version:	1.3.12
-Release:	%mkrel 3
+Version:	1.3.13
+Release:	%mkrel 1
 Summary:	Simple File Verification program
-License:	GPL
+License:	GPLv2+
 Group:		File tools
 Source0:	http://zakalwe.virtuaalipalvelin.net/~shd/foss/cksfv/files/%{name}-%{version}.tar.bz2
 Source1:	cksfv.bash-completion
