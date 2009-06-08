@@ -1,5 +1,5 @@
 Name:		cksfv
-Version:	1.3.13
+Version:	1.3.14
 Release:	%mkrel 1
 Summary:	Simple File Verification program
 License:	GPLv2+
@@ -18,8 +18,8 @@ This format is common in the Windows world.
 %setup -q
 
 %build
-%{configure}
-%{make}
+%configure2_5x
+%make
 
 %install
 rm -rf %{buildroot}
