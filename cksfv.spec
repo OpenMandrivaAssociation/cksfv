@@ -1,6 +1,6 @@
 Name:		cksfv
 Version:	1.3.14
-Release:	%mkrel 2
+Release:	3
 Summary:	Simple File Verification program
 License:	GPLv2+
 Group:		File tools
