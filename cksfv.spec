@@ -6,7 +6,7 @@ License:	GPLv2+
 Group:		File tools
 Source0:	http://zakalwe.virtuaalipalvelin.net/~shd/foss/cksfv/files/%{name}-%{version}.tar.bz2
 Source1:	cksfv.bash-completion
-URL:		http://zakalwe.virtuaalipalvelin.net/~shd/foss/cksfv/
+URL:		https://zakalwe.virtuaalipalvelin.net/~shd/foss/cksfv/
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-root
 
 %description
