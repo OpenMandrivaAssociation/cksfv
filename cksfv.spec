@@ -9,6 +9,11 @@ Source1:	cksfv.bash-completion
 URL:		https://zakalwe.virtuaalipalvelin.net/~shd/foss/cksfv/
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-root
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 %description
 cksfv (Check SFV) can create sfv (Simple File Verification) listings and test
 already created sfv files.  Uses the crc32 checksum.
